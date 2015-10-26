@@ -17,7 +17,7 @@ xmlhttp.send();
 function jsonLoaded(arr) {
 	var randomItem = random(arr.lines);
 	document.getElementById('line').innerHTML = '"' + randomItem.text + '"';
-	document.getElementById('author').innerHTML = '"' + randomItem.author + '"';
+	document.getElementById('author').innerHTML = randomItem.author;
 	document.body.style.backgroundColor = random(arr.colors);
 
 }
