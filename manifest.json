@@ -12,5 +12,5 @@
 	"128": "icon_144.png" 
   },
   "manifest_version": 2,
-  "content_security_policy": "script-src 'self' https://rafagomes.github.io; object-src 'self'"
+  "content_security_policy": "script-src 'self' http://rafagomes.github.io/dev-wisdom; object-src 'self'"
 }
