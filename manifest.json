@@ -1,7 +1,7 @@
 {
   "name": "Developers Wisdom",
   "description": "Frases inspiracionais da sabedoria de desenvolvedores baseado em Zerolines",
-  "version": "0.1",
+  "version": "0.2",
   "incognito": "split",
   "chrome_url_overrides": {
     "newtab": "index.html"

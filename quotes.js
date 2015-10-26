@@ -3,7 +3,7 @@ function random(array) {
 }
 
 var xmlhttp = new XMLHttpRequest();
-var url = "quotes.json";
+var url = "http://rafagomes.github.io/dev-wisdom/quotes.json";
 
 xmlhttp.onreadystatechange = function() {
     if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
