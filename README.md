@@ -1,2 +1,2 @@
-# dev-wisdom
-A collection of developers wisdom funny phrases
+# tretas-wisdom
+A collection of tretas wisdom funny phrases

@@ -1,6 +1,6 @@
 {
-  "name": "Developers Wisdom",
-  "description": "Frases inspiracionais da sabedoria de desenvolvedores baseado em Zerolines",
+  "name": "Tretas Wisdom",
+  "description": "Frases inspiracionais da sabedoria do pessoal da Treta na Huge.",
   "version": "0.1",
   "incognito": "split",
   "chrome_url_overrides": {
@@ -12,5 +12,5 @@
 	"128": "icon_144.png" 
   },
   "manifest_version": 2,
-  "content_security_policy": "script-src 'self' https://rafagomes.github.io; object-src 'self'"
+  "content_security_policy": "script-src 'self' https://nandoacoelho.github.io; object-src 'self'"
 }
