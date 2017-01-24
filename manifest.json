@@ -1,7 +1,7 @@
 {
   "name": "Tretas Wisdom",
   "description": "Frases inspiracionais da sabedoria do pessoal da Treta na Huge.",
-  "version": "0.9",
+  "version": "0.10",
   "incognito": "split",
   "chrome_url_overrides": {
     "newtab": "index.html"
