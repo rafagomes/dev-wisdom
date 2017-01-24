@@ -5,6 +5,9 @@
 	<title>Tretas Wisdom: A collection of funny inspirational phrases</title>
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
 	<style type="text/css">
+		@font-face{font-family:'HUGEAvantGardeBold';src:url("huge_agb_v5-webfont.eot?#iefix") format("embedded-opentype"),url("huge_agb_v5-webfont.woff") format("woff"),url("huge_agb_v5-webfont.ttf") format("truetype"),url("huge_agb_v5-webfont.svg#svgFontName") format("svg")}
+		@font-face{font-family:'Galaxie';font-style:normal;font-weight:normal;src:url("GalaxieCopernicus-Book.eot?#iefix") format("embedded-opentype"),url("GalaxieCopernicus-Book.woff") format("woff"),url("GalaxieCopernicus-Book.svg#svgFontName") format("svg")}
+		@font-face{font-family:'Galaxie';font-style:italic;font-weight:normal;src:url("GalaxieCopernicus-BookItalic.eot?#iefix") format("embedded-opentype"),url("GalaxieCopernicus-BookItalic.woff") format("woff"),url("GalaxieCopernicus-BookItalic.svg#svgFontName") format("svg")}
 		/* http://meyerweb.com/eric/tools/css/reset/ */
 		html, body, div, span, applet, object, iframe,
 		h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -51,39 +54,57 @@
 		}
 
 		html, body {
-			height: 100%;
+			height: calc(100% - 20px);
 		}
 
 		body {
+			border: 20px solid black;
 			-webkit-transform-style: preserve-3d;
 			-moz-transform-style: preserve-3d;
 			transform-style: preserve-3d;
 		}
 
 		h1 {
-			font-family: 'Lato', sans-serif;
+			font-family: 'HUGEAvantGardeBold', sans-serif;
 			text-align: center;
 			position: relative;
 			top: 50%;
 			transform: translateY(-50%);
-			color: white;
+			color: black;
 			font-size: 50px;
 			padding: 0 150px;
 		}
 		h2 {
-			font-family: 'Lato', sans-serif;
+			font-family: 'Galaxie', sans-serif;
+			font-style: italic;
 			text-align: center;
 			position: relative;
 			top: 50%;
 			transform: translateY(-50%);
-			color: white;
-			margin-top: 20px;
+			color: black;
+			margin-top: 60px;
 			font-size: 30px;
 			padding: 0 150px;
+		}
+
+		#quote {
+			position: absolute;
+			width: calc(100vw - 70px);
+			height: 0;
+			margin: 0;
+			font-family: 'Galaxie', sans-serif;
+			font-style: italic;
+			text-align: center;
+			color: black;
+			font-size: 400px;
+			opacity: .1;
+			padding: 0;
+			line-height: .6;
 		}
 	</style>
 </head>
 <body>
+	<h1 id="quote">“</h1>
 	<h1 id="line"></h1>
 	<h2 id="author"></h2>
 	<script type="text/javascript" src="quotes.js"></script>
